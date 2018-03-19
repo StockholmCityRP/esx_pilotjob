@@ -93,7 +93,7 @@ end)
 -- Create markers for the pilots
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(0)
+		Citizen.Wait(10)
 
 		if PlayerData.job ~= nil and PlayerData.job.name == 'pilot' then
 
@@ -130,7 +130,7 @@ end)
 -- Enter/Exit marker events
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(0)
+		Citizen.Wait(10)
 
 		local playerPed			= GetPlayerPed(-1)
 		local coords			= GetEntityCoords(playerPed)
@@ -201,7 +201,7 @@ end)
 -- Key listeners for markers
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(0)
+		Citizen.Wait(10)
 
 		if CurrentAction ~= nil then
 			SetTextComponentFormat('STRING')

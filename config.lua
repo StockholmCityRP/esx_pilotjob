@@ -1,7 +1,7 @@
 Config					= {}
 Config.DrawDistance		= 100.0
 Config.MaxInService		= -1 -- Set to -1 to disable this
-Config.Locale			= 'en'
+Config.Locale			= 'sv'
 
 Config.Airports = {
 	LSX = {
@@ -138,10 +138,10 @@ Config.GradeVehicles = {
 			label = 'Miljet',
 			value = 'miljet'
 		},
-		airbus = { -- This is from a mod, you should probably remove this or change it to avoid issues!
-			label = 'Airbus A350',
-			value = 'a350'
-		},
+		--airbus = { -- This is from a mod, you should probably remove this or change it to avoid issues!
+		--	label = 'Airbus A350',
+		--	value = 'a350'
+		--},
 	},
 	
 }
