@@ -234,6 +234,7 @@ function OpenJobMenu()
 		'default', GetCurrentResourceName(), 'pilotjob_job',
 		{
 			title		= _U('jobmenu_title'),
+			align		= 'bottom-right',
 			elements	= elements
 		},
 		function(data, menu)
@@ -312,6 +313,7 @@ function OpenVehicleSpawner(airport)
 		'default', GetCurrentResourceName(), 'pilot_vehicle_spawner',
 		{
 			title		= _U('vehicle_spawner'),
+			align		= 'bottom-right',
 			elements	= elements
 		},
 		function(data, menu)
@@ -360,6 +362,7 @@ function OpenClothesMenu()
 		'default', GetCurrentResourceName(), 'pilot_clothes_menu',
 		{
 			title		= _U('clothes_menu'),
+			align		= 'bottom-right',
 			elements	= elements
 		},
 		function(data, menu)
